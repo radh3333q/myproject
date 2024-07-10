@@ -1,0 +1,211 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.r {
+    padding: 5px;
+    background-color: #419084;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    color: #D2B48C;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150vh; 
+}
+
+
+.navbar {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    background: linear-gradient(to bottom, #008080, #D2B48C);
+    position: relative; 
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 120px;
+    width: 120px;
+}
+
+ul.links {
+    list-style: none;
+    display: flex;
+}
+
+ul.links li {
+    margin-left: 10px;
+}
+
+ul.links li a {
+    text-decoration: none;
+    color: #f0a604;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+ul.links li a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    position: absolute;
+    right: 40px;
+}
+
+.icons i {
+    margin-left: 20px;
+    color: #f0a604;
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content_left {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: "Jost", sans-serif;
+}
+
+.content h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #419084;
+    margin-bottom: 25px;
+    font-family: "Jost", sans-serif;
+}
+
+.content p {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 30px;
+    font-family: "Jost", sans-serif;
+}
+
+.btn {
+    background-color: #419084;
+    color: goldenrod;
+    font-size: 17px;
+    padding: 12px 40px;
+    font-weight: 1000;
+    border: none;
+    margin: 20px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #008080;
+    box-shadow: #f0a604;
+}
+
+.container-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.product h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.product .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6347; 
+}
+
+footer {
+    background-color: #419084;
+    color:#f0a604;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px #04e8f0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+footer .col {
+    flex: 2;
+    padding: 15px;
+    text-align: left;
+}
